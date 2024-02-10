@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;;
+}
+
+body {
+  background: rgba(172, 230, 248, 0.39);
+}
+
+.fundo1 {
+  width: 100%;
+  height: 64vh;
+  background-image: url("tronco.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.entervalos {
+  display: flex;
+  height: 64vh;
+  background: linear-gradient(180deg, #00000000, rgba(0, 0, 0, 0.288), rgb(0, 0, 0));
+  text-align: center;
+  align-items: center;
+  color: rgb(123, 235, 255);
+}
+
+.fundo2 {
+  width: 100%;
+  height: 64vh;
+  background-image: url("cachoeiraComTronco.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
+.logo {
+  width: 7%;
+  position: absolute;
+  left: 1em;
+  top: 1em;
+}
+
+.logo1 {
+  width: 7%;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 1em auto;
+}
+
+.principal {
+  width: 80%;
+  height: auto;
+  margin: 1em auto;
+  padding: 1.8em;
+  border-radius: 16px;
+  background: rgba(137, 188, 255, 0.39);
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  margin: 1em auto;
+}
+
+h3 {
+  margin: 0 1em 1em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.imgCaixa {
+  display: flex;
+  width: 40%;
+  margin: 1em auto;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px rgb(29, 156, 230);
+  border-radius: 20px;
+  background: rgb(21, 205, 238);
+  cursor: pointer;
+  box-shadow: 3px 5px 4px rgb(0, 0, 0, 0.3);
+}
+
+.imgFormulario {
+  width: 50%;
+}
+
+.paragrafo {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.paragrafoSolto {
+  font-size: 1.8em;
+  text-align: center;
+  margin: 1.4em auto;
+}
+
+.cadaLi {
+  list-style-type: none;
+  font-size: 1.4em;
+  margin: 10px auto;
+}
+
+.cadaLi:before {
+  content: "💦";
+}
+
+footer {
+  height: auto;
+  background: rgb(23, 149, 223);
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoRodape {
+  width: 14%;
+  margin: 2em auto 1em;
+}
+
+.paragrafoCopy {
+  text-align: center;
+  font-size: 1em;
+  color: rgb(228, 228, 228);
+  margin: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .fundo1 {
+    height: 40vh;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+  }
+
+  .entervalos {
+    height: 40vh;
+    background: linear-gradient(180deg, #00000000, rgba(0, 0, 0, 0.274), rgba(0, 0, 0, 0.836));
+    ;
+  }
+
+  .fundo2 {
+    height: 40vh;
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: 40% 100%;
+  }
+
+  .imgCaixa {
+    width: 60%;
+  }
+
+  .imgFormulario {
+    width: 40%;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  .principal {
+    width: 94%;
+    padding: 0.8em;
+  }
+
+  h3 {
+    font-size: 2.2em;
+  }
+
+  .cadaLi {
+    font-size: 1.6em;
+  }
+
+  .paragrafo {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .logoRodape {
+    width: 20%;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .logoRodape {
+    width: 24%;
+  }
+}
